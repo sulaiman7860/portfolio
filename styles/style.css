@@ -233,6 +233,62 @@ margin-bottom: 20%;
    -webkit-text-fill-color:transparent;
 }
 
+#forth-section {
+    margin-top: 20vh;
+    margin-bottom: 20vh;
+}
+
+#forth-section a {
+    text-decoration: none;
+    color: #403d39;
+    padding: 5px;
+}
+#forth-section a:focus {
+   color: #9b5de5;    
+}
+
+#forth-section #paintBrush {
+    display: none;
+    font-size: 4rem;
+    margin-top: 30%;
+    background:-moz-linear-gradient(top, #757F9A 0%, #D7DDE8 100%); 
+    background: -webkit-linear-gradient(top, #757F9A 0%,#D7DDE8 100%); 
+    background: linear-gradient(to bottom, #757F9A 0%,#D7DDE8 100%);
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    background-clip: text;
+   -webkit-text-fill-color:transparent;
+  }
+  #forth-section h4:hover {
+    background:-moz-linear-gradient(top, #fc00ff 0%, #00dbde 100%); 
+    background: -webkit-linear-gradient(top, #fc00ff 0%,#00dbde 100%); 
+    background: linear-gradient(to bottom, #fc00ff 0%,#00dbde 100%);
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    background-clip: text;
+   -webkit-text-fill-color:transparent;
+  }
+
+  #forth-section button {
+    background-image: linear-gradient(to right , #74ebd5,#ACB6E5);
+    border: 0;
+    color: #fff;
+    border-radius: 10px;
+  }
+  #forth-section button:hover {
+    background-image: linear-gradient(to right ,#ACB6E5, #74ebd5);
+  }
+
+  
+  #forth-section #iconSection:hover img {
+    filter: blur(3px);
+    filter: hue-rotate(254.8deg); 
+    transition: all 0.5s;
+  }
+  #forth-section #iconSection:hover #paintBrush {
+    display: block;
+  }
+
 /* MEDIA QUERY SECTION */
 @media only screen and (max-width: 767px) {
     header {
