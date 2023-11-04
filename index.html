@@ -12,37 +12,60 @@
 
 <body id="contentful">
   <header>
-    <nav class="navbar navbar-expand-md" id="navbar-id">
+    <nav class="navbar navbar-expand-fluid navbar-dark" id="navbar-id">
       <div class="container">
-        <a class="navbar-brand fw-bold text-light" href="#">MEETME</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
-          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <a class="navbar-brand fw-bold" href="#">MEETME</a>
+        <button class="navbar-toggler" href="#offcanvasExample" role="button" data-bs-toggle="offcanvas"  aria-controls="offcanvasExample">
           <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav ms-auto mb-2 mb-lg-0 fw-bold">
+        <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+      <div class="offcanvas-header">
+        <h5 class="offcanvas-title" id="offcanvasExample"></h5>
+        <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+      </div>
+      <div class="offcanvas-body">
+        <h2>LOGO</h2>
+          <ul class="navbar-nav mt-5 me-auto mb-2 mb-lg-0">
             <li class="nav-item">
-              <a class="nav-link" aria-current="page" href="#">HOME</a>
+              <a class="nav-link text-secondary" aria-current="page" href="#">Shirts</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">ABOUT</a>
+              <a class="nav-link text-secondary" href="#">Dresses</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle text-dark" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Jeans
+              </a>
+              <ul class="dropdown-menu border-0" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item text-dark ms-2" href="#"><b>Skinny</b></a></li>
+                <li><a class="dropdown-item text-secondary" href="#"><b>Relaxed</b></a></li>
+                <li><a class="dropdown-item text-secondary" href="#"><b>Bootcut</b></a></li>
+                <li><a class="dropdown-item text-secondary" href="#"><b>Straight</b></a></li>
+              </ul>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">BLOG</a>
+              <a class="nav-link text-secondary" href="#" tabindex="-1" aria-disabled="true">Jacket</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">SERVICES</a>
+              <a class="nav-link text-secondary" href="#" tabindex="-1" aria-disabled="true">Gymwear</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">PAGES</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">CONTACT</a>
-            </li>
-
-
+                <a class="nav-link text-secondary" href="#" tabindex="-1" aria-disabled="true">Shoes</a>
+              </li>
           </ul>
-        </div>
+          <ul class="navbar-nav mt-5 pt-5 me-auto mb-0 mb-lg-0" id="bottom">
+            <li class="nav-item">
+              <a class="nav-link text-dark" aria-current="page" href="#">Contact</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-dark" href="#">Newsletter</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-dark" href="#">Subscribe</a>
+            </li>
+          </ul>
+      </div>
+    </div>
       </div>
     </nav>
 
