@@ -3,7 +3,7 @@ window.addEventListener("scroll", function () {
     var content = document.getElementById("contentful");
 
     if (window.pageYOffset > content.offsetTop) {
-        header.style.backgroundImage = "linear-gradient(to right , #74ebd5,#ACB6E5)"; 
+        header.style.backgroundImage = "linear-gradient(to right , #bdc3c7,#2c3e50)"; 
     } else {
         header.style.backgroundImage = "none";  
     }

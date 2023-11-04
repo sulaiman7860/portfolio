@@ -2,9 +2,41 @@
 
 
 header {
-    background-image: linear-gradient(to right , #74ebd5,#ACB6E5);
+    background-image: url(../assets/images/nature_hd_background-wallpaper-1440x1080.jpg);
     min-height: 130vh;
     position: relative;
+}
+#offcanvasExample {
+    background-image: url(../assets/images/wp2722836.jpg);
+    min-height: 100%;
+    background-size: cover;
+}
+.offcanvas-body ul li {
+    display: inline-block;
+    list-style: none;
+    padding: 8px 12px;
+    position: relative;
+    text-transform: uppercase;
+}
+
+.offcanvas-body ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+}
+
+.offcanvas-body ul li::after {
+    content: '';
+    width: 0%;
+    height: 2px;
+    background: #dcdcdd;
+    display: block;
+    margin:0;
+    transition: 0.5s;
+}
+
+.offcanvas-body ul li:hover::after {
+    width: 100%;
 }
 
 #myDetails {
@@ -183,7 +215,7 @@ margin-bottom: 20%;
 }
 
 #second-section {
-    background-image: linear-gradient(to right , #74ebd5,#ACB6E5);
+    background-image: url(../assets/images/pink_green_autumn_leaves_branches_in_purple_bokeh_blur_background_hd_nature-1920x1080.jpg);
     min-height: 100%;
     padding-top: 10vh;
     padding-bottom: 10vh;
@@ -191,7 +223,7 @@ margin-bottom: 20%;
 }
 
 #second-section button {
-    background-image: linear-gradient(to right , #0ED2F7,#B2FEFA);
+    background-image: linear-gradient(to right , #833ab4,#fd1d1d,#fcb045);
     border: #0ED2F7;
     color: #fff;
     border-radius: 10px;
